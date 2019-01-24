@@ -1,0 +1,5 @@
+a, b = int(input()), int(input())
+print("Soma",a+b)
+print("Multiplicação",a*b)
+print("Subtração",a-b)
+print("Divisão",a/b)

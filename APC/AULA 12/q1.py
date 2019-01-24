@@ -1,0 +1,6 @@
+arq = input("Digite o nome do arquivo\n")
+x = open(arq,'r')
+z = x.read()
+z = z.upper()
+arq2 = open('arq2.txt','w')
+arq2.write(z)
