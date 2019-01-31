@@ -1,4 +1,4 @@
-from pilhas import Pilha
+from pilha import Pilha
 exp = '3-[15+2*(4-3)*[2+(5-1)]]/4'
 p = Pilha(len(exp))
 bem = True
@@ -17,5 +17,3 @@ for i in range(len(exp)):
 
 bem = p.vazia()
 print('Expressão bem formada') if bem == True else print('Expressão mal formada')
-print(bem)
-p.imprimir()
