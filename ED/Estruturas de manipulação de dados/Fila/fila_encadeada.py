@@ -28,6 +28,8 @@ class chainedQueue:
             self.start.next = aux.next
             item = aux.item
             self.size -= 1
+            if self.size == 0:
+                self.end = self.start
             return item
 
     def queuePrint(self):
