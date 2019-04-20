@@ -27,11 +27,3 @@ class Table:
         for i in range(self.m):
             print(i, ' ', self.table[i])
         print('---')
-
-tabela = Table(8)
-tabela.insert(16)
-tabela.insert(18)
-tabela.insert(32)
-tabela.hashPrint()
-tabela.delHash(32)
-tabela.hashPrint()
